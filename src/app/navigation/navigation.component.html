@@ -1,61 +1,69 @@
-<!-- <div id="header" class="nav-collapse">
-    <div class="row clearfix">
-        <div class="col-1">
+<header class="main-header">
+    <div class="header-sticky">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" routerLink="/ttps://itelegant.org/">
+                <img src="https://suite.endole.co.uk/img/company_icon.png" alt="itelegantLogo"> 
+           </a>
+                <ul class="nav justify-content-end" style="width: 60%;">
+                    <li class="nav-item"> 
+                        <a class="nav-link active" routerLink="/home" routerLinkActive="active">Home</a>
+                         </li>
+                         <li>
+                        <a class="nav-link active" routerLink="/about-us" routerLinkActive="active" >About Us</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Services
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item" routerLink="/appDevelopmentComponent">Application Development</a></li>
+                              <li><a class="dropdown-item" routerLink="/aiSolutions">AI Solutions</a></li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" routerLink="/cyberSecurity">Cyber Security</a></li>
+                              <li><a class="dropdown-item" routerLink="/businessProcessOpt">Business Process Optimization</a></li>
+                              <li><a class="dropdown-item" routerLink="/CloudInfra">Cloud Infrastructure</a></li>
+                              <li><a class="dropdown-item" routerLink="/businessConsulting">Business Consulting</a></li>
+                              <li><a class="dropdown-item" routerLink="/dataAnalytics">Data & Analytics</a></li>
+                              <li><a class="dropdown-item" routerLink="/digitalExp">Digital Experience</a></li>
+                              <li><a class="dropdown-item" routerLink="/engSolutions">Engineering Solutions</a></li>
+                              <li><a class="dropdown-item" routerLink="/sustainability">Sustainability</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" aria-expanded="false">
+                              Industry
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item"  routerLink="/oil">Oil</a></li>
+                              <li><a class="dropdown-item" routerLink="/banking">Banking</a></li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" routerLink="/retail">Retail</a></li>
+                              <li><a class="dropdown-item" routerLink="/logistics">Logistics</a></li>
+                              <li><a class="dropdown-item" routerLink="/manufacturing">Manufacturing</a></li>
+                              <li><a class="dropdown-item" routerLink="/warehouses">Warehouses</a></li>
+                              <li><a class="dropdown-item" routerLink="/dataCentre">Data Centre</a></li>
+                              <li><a class="dropdown-item" routerLink="/shipping">Shipping</a></li>
 
-            <div id="logo">
-
-             
-
+                            </ul>
+                          </li>
+                          <li class="nav-item"> 
+                            <a class="nav-link active" routerLink="/insights" routerLinkActive="active">Insights</a>
+                             </li>
+                             <li>
+                    </ul>
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control form-control-light text-bg-light" placeholder="Search..." aria-label="Search">
+                      </form>
+                      <div class="text-end">
+                        <button type="button" class="btn btn-outline-dark me-2" routerLink="/login">Login/Register</button>
+                      </div>
             </div>
-
-           
-
-
-            <nav id="nav-main">
-                <ul>
-                    <li>
-                        <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
-                    </li>
-                    <li>
-                        <a routerLink="/about-us" routerLinkActive="active" ariaCurrentWhenActive="page">About</a>
-                    </li>
-                    <li>
-                        <a routerLink="/service" routerLinkActive="active" ariaCurrentWhenActive="page">Services</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div id="nav-trigger"><span></span></div>
-            <nav id="nav-mobile"></nav>
-
+    </nav>
         </div>
-    </div>
-</div> -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-   
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
-        </li>
-        <li class="nav-item">
-            <a routerLink="/about-us" routerLinkActive="active" ariaCurrentWhenActive="page">About</a>
-        </li>
-        <li class="nav-item">
-            <a routerLink="/service" routerLinkActive="active" ariaCurrentWhenActive="page">Services</a>
-        </li>
-        <li class="nav-item">
-            <a routerLink="/industries" routerLinkActive="active" ariaCurrentWhenActive="page">Industries</a>
-        </li>
-        <li class="nav-item">
-            <a routerLink="/insights" routerLinkActive="active" ariaCurrentWhenActive="page">Insights</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search here</button>
-      </form>
-    </div>
-  </nav>
-  
+    </header>
+     

@@ -1,0 +1,118 @@
+.about{
+    padding: 101px 49px 49px 49px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.page-about-image {
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 52px;
+}
+
+.reveal {
+    position: relative;
+    display: inline-flex;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.image-anime {
+    position: relative;
+    overflow: hidden;
+    height: 25rem;
+}
+
+figure {
+    margin: 0;
+}
+
+.about-img-1 img {
+    border-radius: 40px;
+}
+
+.reveal img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+}
+
+img {
+    max-width: 100%;
+}   
+
+.image-anime:hover:after {
+    height: 250%;
+    transition: all 600ms linear;
+    background-color: transparent;
+}
+
+.image-anime:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+}
+
+.page-about .about-content .section-title {
+    margin-bottom: 30px;
+}
+.section-title {
+    text-align: left;
+}
+.section-title h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #7b99b3;
+    margin-bottom: 10px;
+}
+.section-title h2 {
+    font-size: 50px;
+    letter-spacing: -0.05em;
+    margin-bottom: 0;
+    font-family: Lora;
+    color: #7b99b3;
+}
+p {
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    font-family: rubik;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.section-title {
+    text-align: left;
+}
+.page-about .about-content .section-title {
+    margin-bottom: 30px;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.ani {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
