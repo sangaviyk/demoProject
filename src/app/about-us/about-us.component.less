@@ -1,3 +1,31 @@
+@media only screen and (min-width: 1161px) {
+    .whatdo-section-main {
+        padding: 131px 64px 70px 100px;
+    }
+}
+@media only screen and (min-width: 1161px) {
+    .what-do-left span.verticle-line {
+        margin-bottom: 34px;
+    }
+}
+@media only screen and (min-width: 1161px) {
+    .what-do-section h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 14px;
+    }
+}
+span.verticle-line:before {
+    width: 24px;
+    height: 2px;
+    background-color: #f70b7f;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
 .about{
     padding: 101px 49px 49px 49px;
 }
@@ -279,4 +307,117 @@ figure {
 }
 .footer-links ul li:hover {
     color: #f70b7f;
+}
+.why-choose-us {
+    background-color: #f7f8fd;
+    padding: 100px 0;
+}
+.section-row {
+    margin-bottom: 60px;
+}
+.why-choose-us-item {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 40px;
+    height: calc(100% - 30px);
+    margin-bottom: 30px;
+}
+.why-choose-us-item h3 {
+    font-size: 26px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.why-choose-us-item p {
+    margin: 0;
+    line-height: 1.6em;
+}
+.partners-logo {
+    background-color: #f7f8fd;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19rem;
+    margin-left: 2rem;
+}
+.exclusive-partners{
+    margin-top: 6rem; 
+}
+.overview-company {
+    background-color: #f7f8fd;
+    padding: 100px 0 70px;
+}
+.mySwiper {
+    padding: 2rem;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5rem;
+    overflow: hidden;
+    display: inline-flex;
+    background: linear-gradient(318deg, #523c95 0, #6a416b 53%, #0dcfb4 100%);
+}
+ @keyframes scrollLeft {
+    to{
+        left: -200px;
+    }
+ }
+
+ .item {
+    width: 25rem;
+    height: 13vh;
+    position: relative;
+    left: 100%;
+    animation-name: scrollLeft;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 22px 0;
+    text-wrap: nowrap;
+ }
+
+ .item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item2 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item3 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item4 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item5 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item6 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+
+ @keyframes appear {
+    from {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+ .animate__heartBeat_sec2{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }

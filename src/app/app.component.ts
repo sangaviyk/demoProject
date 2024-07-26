@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ServiceComponent } from './service/service.component';
@@ -40,7 +40,8 @@ CybersecurityComponent,DataAnalyticsComponent,DigitalExpComponent,EngSolutionsCo
 RetailComponent,LogisticsComponent,ManufacturingComponent,WarehousesComponent,DatacentreComponent,ShippingComponent
 ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.less'
+  styleUrl: './app.component.less',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppComponent {
   title = 'demoProject';

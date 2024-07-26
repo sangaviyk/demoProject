@@ -51,7 +51,7 @@ export const routes: Routes = [
     {title: "ITElegant | Sustainability", path:'sustainability' , component: SustainabilityComponent},
     {title: "ITElegant | Oil", path:'oil' , component: OilComponent},
     {title: "ITElegant | Banking", path:'banking' , component:BankingComponent },
-    {title: "ITElegant | Retail", path:'Retail' , component: RetailComponent},
+    {title: "ITElegant | Retail", path:'retail' , component: RetailComponent},
     {title: "ITElegant | Logistics", path:'logistics' , component: LogisticsComponent},
     {title: "ITElegant | Manufacturing", path:'manufacturing' , component: ManufacturingComponent},
     {title: "ITElegant | Warehouses", path:'warehouses' , component: WarehousesComponent},
