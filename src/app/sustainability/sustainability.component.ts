@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './sustainability.component.html',
   styleUrl: './sustainability.component.less'
 })
-export class SustainabilityComponent {
+export class sustainabilityComponent {
 
 }

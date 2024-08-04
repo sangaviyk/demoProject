@@ -370,7 +370,7 @@ figure {
  }
 
  .item {
-    width: 25rem;
+    width: 32rem;
     height: 13vh;
     position: relative;
     left: 100%;
@@ -404,6 +404,18 @@ figure {
  .item6 {
     animation-delay: calc(30s / 8 * (8 - 1) * -1);
  }
+ .item7 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item8 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item9 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
+ .item10 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+ }
 
  @keyframes appear {
     from {
@@ -420,4 +432,51 @@ figure {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+}
+.news-container {
+    top: 0;
+    left: 0;
+    right:0;
+    font-family: inherit;
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(318deg, #523c95 0, #6a416b 53%, #0dcfb4 100%);
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.news-container ul {
+display: flex;
+list-style: none;
+margin: 0;
+animation: scroll 15s infinite linear;
+}
+.news-container ul li{
+white-space: nowrap;
+padding: 10px 24px;
+color: #fff;
+position: relative;
+ }
+
+.news-container ul li::after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(318deg, #523c95 0, #6a416b 53%, #0dcfb4 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 4rem;
+}
+.news-container ul li:last-child::after{
+    display: none;
+}
+
+@keyframes scroll {
+    from {
+        transform: translate(100%);
+    }
+
+    to {
+        transform: translateX();
+    }
 }

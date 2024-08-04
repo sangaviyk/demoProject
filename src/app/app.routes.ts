@@ -19,7 +19,7 @@ import { CybersecurityComponent } from './cybersecurity/cybersecurity.component'
 import { DataAnalyticsComponent } from './data-analytics/data-analytics.component';
 import { DigitalExpComponent } from './digital-exp/digital-exp.component';
 import { EngSolutionsComponent } from './eng-solutions/eng-solutions.component';
-import { SustainabilityComponent } from './sustainability/sustainability.component';
+import { sustainabilityComponent } from './sustainability/sustainability.component';
 import { OilComponent } from './oil/oil.component';
 import { BankingComponent } from './banking/banking.component';
 import { RetailComponent } from './retail/retail.component';
@@ -48,7 +48,7 @@ export const routes: Routes = [
     {title: "ITElegant | DataAnalytics", path:'dataAnalytics' , component: DataAnalyticsComponent},
     {title: "ITElegant | DigitalExp", path:'digitalExp' , component: DigitalExpComponent},
     {title: "ITElegant | EngSolutions", path:'engSolutions' , component: EngSolutionsComponent},
-    {title: "ITElegant | Sustainability", path:'sustainability' , component: SustainabilityComponent},
+    {title: "ITElegant | sustainability", path:'sustainability' , component: sustainabilityComponent},
     {title: "ITElegant | Oil", path:'oil' , component: OilComponent},
     {title: "ITElegant | Banking", path:'banking' , component:BankingComponent },
     {title: "ITElegant | Retail", path:'retail' , component: RetailComponent},

@@ -20,7 +20,7 @@ import { CybersecurityComponent } from './cybersecurity/cybersecurity.component'
 import { DataAnalyticsComponent } from './data-analytics/data-analytics.component';
 import { DigitalExpComponent } from './digital-exp/digital-exp.component';
 import { EngSolutionsComponent } from './eng-solutions/eng-solutions.component';
-import { SustainabilityComponent } from './sustainability/sustainability.component';
+import { sustainabilityComponent } from './sustainability/sustainability.component';
 import { OilComponent } from './oil/oil.component';
 import { BankingComponent } from './banking/banking.component';
 import { RetailComponent } from './retail/retail.component';
@@ -36,7 +36,7 @@ import { ShippingComponent } from './shipping/shipping.component';
   imports: [RouterOutlet, AboutUsComponent, ServiceComponent, HomeComponent, NavigationComponent, 
     FooterComponent,NotfoundComponent,IndustriesComponent,InsightsComponent,LoginComponent,ContactUsComponent,TestimonialsComponent,
   AboutUsComponent,AppDevelopmentComponent,AiSolutionsComponent,BusinessConsultingComponent,BusinessProcessOptComponent,CloudInfraComponent,
-CybersecurityComponent,DataAnalyticsComponent,DigitalExpComponent,EngSolutionsComponent,SustainabilityComponent,OilComponent,BankingComponent,
+CybersecurityComponent,DataAnalyticsComponent,DigitalExpComponent,EngSolutionsComponent,sustainabilityComponent,OilComponent,BankingComponent,
 RetailComponent,LogisticsComponent,ManufacturingComponent,WarehousesComponent,DatacentreComponent,ShippingComponent
 ],
   templateUrl: './app.component.html',
