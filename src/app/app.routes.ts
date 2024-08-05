@@ -28,6 +28,7 @@ import { ManufacturingComponent } from './manufacturing/manufacturing.component'
 import { WarehousesComponent } from './warehouses/warehouses.component';
 import { DatacentreComponent } from './datacentre/datacentre.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { CareersComponent } from './careers/careers.component';
 
 export const routes: Routes = [
     {title: "ITElegant | HOME", path:'' , component: HomeComponent},
@@ -57,6 +58,7 @@ export const routes: Routes = [
     {title: "ITElegant | Warehouses", path:'warehouses' , component: WarehousesComponent},
     {title: "ITElegant | Datacentre", path:'dataCentre' , component: DatacentreComponent},
     {title: "ITElegant | Shipping", path:'shipping' , component: ShippingComponent},
+    {title: "ITElegant | careers", path:'careers' , component: CareersComponent},
     {title: "ITElegant | NOT FOUND", path:'**' , component: NotfoundComponent},
 
 ];
